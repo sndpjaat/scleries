@@ -28,7 +28,6 @@ const Ispum = () => {
     };
 
     const colorIndex = getColorIndex();
-
     return (
         <div className='container max-w-[1164px] px-3 mx-auto'>
             <div className="flex flex-wrap -mx-3 pt-4 pb-[140px] max-sm:pb-[60px]">

@@ -35,8 +35,6 @@ const Selceres = () => {
                     style={{ width: '100%', height: '100%' }} // Adjust dimensions if necessary
                 />
             </div>
-         
-
             <div className="container max-w-[1164px] mx-auto px-3">
 
                 <div className="flex justify-center pt-[160px] pb-[261px] max-sm:pb-[200px]">

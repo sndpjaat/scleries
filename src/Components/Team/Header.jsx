@@ -48,7 +48,7 @@ const Header = () => {
                             <span className='bar h-[3px] block cursor-pointer bg-black w-[25px] custom_duration'></span>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 

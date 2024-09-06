@@ -8,6 +8,7 @@ module.exports = {
       container: {
         padding: {
           DEFAULT: "24px",
+          
         },
         center: true,
         screens: {
@@ -53,6 +54,36 @@ module.exports = {
         "10xl": "44px",
         "11xl": "56px"
       }
+    },
+
+    animation: {
+      'move-up': 'moveUp 2s infinite alternate',
+      'move-down': 'moveDown 2s infinite alternate',
+      'move-left': 'moveLeft 2s infinite alternate',
+      'move-right': 'moveRight 2s infinite alternate',
+      'move-diagonal': 'moveDiagonal 2s infinite alternate',
+    },
+    keyframes: {
+      moveUp: {
+        '0%': { transform: 'translateY(290)' },
+        '100%': { transform: 'translateX(500px)' },
+      },
+      moveDown: {
+        '0%': { transform: 'translateY(100)' },
+        '100%': { transform: 'translateX(150px)' },
+      },
+      moveLeft: {
+        '0%': { transform: 'translateY(60)' },
+        '100%': { transform: 'translateX(90px)' },
+      },
+      moveRight: {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(50px)' },
+      },
+      moveDiagonal: {
+        '0%': { transform: 'translate(0, 0)' },
+        '100%': { transform: 'translate(30px, 30px)' },
+      },
     },
   },
   plugins: [],

@@ -30,13 +30,10 @@ const Amet = () => {
                                     </li>
                                 ))}
                             </ul>
-                            
                             <div className="flex gap-7 max-lg:flex-col animate__animated animate__lightSpeedInRight ">
                                 <img src={UserIcon} alt="UserIcon" />
                                 <img src={ShoppingIcon} alt="ShoppingIcon" />
-
                             </div>
-
                         </div>
                         <div className='lg:hidden cursor-pointer block z-50'>
                             <span className='bar h-[3px] block cursor-pointer bg-black w-[25px] custom_duration'></span>

@@ -6,3 +6,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+/* Keyframes for bubble animations */
+@keyframes moveUp {
+    0% { transform: translatex(980); }
+    100% { transform: translateY(700px); }
+  }
+  
+  @keyframes moveDown {
+    0% { transform: translateY(990); }
+    100% { transform: translatex(1300px); }
+  }
+  
+  @keyframes moveLeft {
+    0% { transform: translateX(400); }
+    100% { transform: translateX(900px); }
+  }
+  
+  @keyframes moveRight {
+    0% { transform: translateX(730px); }
+    100% { transform: translateX(500px); }
+  }
+  
+  @keyframes moveDiagonalUpRight {
+    0% { transform: translatex( 200px); }
+    100% { transform: translateY( 700px); }
+  }
+  
+  @keyframes moveDiagonalDownLeft {
+    0% { transform: translateY(600px); }
+    100% { transform: translateX(450px); }
+  }
+  
+  /* Animation classes */
+  .bubble-up {
+    animation: moveUp 5s infinite alternate;
+  }
+  
+  .bubble-down {
+    animation: moveDown 5s infinite alternate;
+  }
+  
+  .bubble-left {
+    animation: moveLeft 5s infinite alternate;
+  }
+  
+  .bubble-right {
+    animation: moveRight 5s infinite alternate;
+  }
+  
+  .bubble-diagonal-up-right {
+    animation: moveDiagonalUpRight 5s infinite alternate;
+  }
+  
+  .bubble-diagonal-down-left {
+    animation: moveDiagonalDownLeft 5s infinite alternate;
+  }
+  
+  
